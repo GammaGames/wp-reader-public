@@ -22,7 +22,7 @@ If you have any problems, feel free to open an issue on the repo or contact Jess
 
 ## When
 
-The site updates at regular intervals using GitHub actions. You can find the schedule on the [workflow page](https://github.com/GammaGames/wp-reader-public/blob/master/.github/workflows/update.yaml).
+The site updates at regular intervals using GitHub actions. You can find the schedule on the [workflow page](https://github.com/GammaGames/wp-reader-public/blob/master/.github/disabled-workflows/update.yaml).
 
 ## Why
 
