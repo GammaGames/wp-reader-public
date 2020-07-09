@@ -13,7 +13,7 @@ You can find out more about me on my personal site, [GammaGames.net](https://gam
 ## What
 
 This site that pulls the weekly schedule posts from [/r/WritingPrompts](https://reddit.com/r/writingprompts) and displays all top-level comments in order from oldest to newest.  
-Again, content belongs to authors and copyright holders. No data is archived, all content can be found in the `docs/_posts` folder in the GitHub repo.
+Again, content belongs to authors and copyright holders. No data is archived.
 
 ## Where
 
@@ -22,7 +22,7 @@ If you have any problems, feel free to open an issue on the repo or contact Jess
 
 ## When
 
-The site updates at regular intervals using GitHub actions. You can find the schedule on the [workflow page](https://github.com/GammaGames/wp-reader-public/blob/master/.github/workflows/update.yaml).
+The site updates at regular intervals using GitHub actions. You can find the schedule on the [workflow page](https://github.com/GammaGames/wp-reader-public/blob/master/.github/disabled-workflows/update.yaml).
 
 ## Why
 
