@@ -80,7 +80,7 @@ def write_footer():
         print("Writing footer.html")
         template = env.get_template("footer.html")
         rendered = template.render(
-            updated=datetime.datetime.now().strftime("%B %-d, %Y %H:%M %p")
+            updated=datetime.datetime.now().strftime("%B %-d, %Y %-I:%M %p")
         )
         out.write(rendered)
 
