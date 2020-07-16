@@ -22,7 +22,7 @@ reddit = praw.Reddit(
 def get_filename(filename):
     for c in r"'[]/\;,><&*:%=+@!#^()|?^":
         filename = filename.replace(c, "")
-    return filename
+    return filename.replace(" ", "_")
 
 
 def get_posts(sidebar):
@@ -69,7 +69,7 @@ def write_posts(posts):
         )
 
         date = datetime.datetime.fromtimestamp(post["submission"].created_utc)
-        filename = f"{date:%Y-%m-%d}-{post['feature']}.md"
+        filename = f"{date:%Y-%m-%d}-{get_filename(post['feature'])}.md"
         with open(f"docs/_posts/{filename}", "w") as out:
             print(f"Writing {filename}")
             out.write(rendered)
